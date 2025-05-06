@@ -1,4 +1,4 @@
-# LLM vs LLM - Fault Localisation Approach    
+# LLM vs LLM - Fault Localization Approach    
 Fault localization is a critical and time-consuming step in software
 debugging, traditionally requiring extensive tests or instrumenta-
 tion. We propose a novel approach in which two large language
