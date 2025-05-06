@@ -1,0 +1,22 @@
+Task: Generate a C++ program that contains a subtle logical or syntactical fault. After generating the program, identify the specific line or segment containing the fault.
+
+Output Format: The final output must be presented strictly as a single, parsable JSON object, suitable for automated processing. Crucially, ensure the entire response consists only of this JSON object. Do not include any introductory text, concluding remarks, explanations, or Markdown formatting (like ```json) outside of the JSON structure itself. Furthermore, within the JSON, the Fault field must contain only the specific code segment identifying the fault, not an explanation. The required JSON structure is:
+
+{
+  "Program": "#include <tcclib.h>
+int main(int argc, char *argv[])
+{
+    while (1)
+    {
+        pass
+    }
+    return 0;
+}
+",
+  "Fault": "pass"
+}
+
+
+Example C++ Program Idea (Guidance):Generate a novel C++ program concept. Crucially, the program and its fault must be substantially different from common examples. Avoid anything resembling basic calculations (like area), simple loop errors, or the specific categories mentioned previously (standard pointer issues like dangling pointers/double free, typical resource leaks like unclosed files, basic algorithm flaws like incorrect sorting comparisons, or common standard library misuse). Aim for a more unique scenario or a less obvious implementation error within a slightly more complex context.
+
+Constraint: The fault should be non-trivial but identifiable upon careful inspection. The code can be slightly complex, but the focus should remain on a clear, single fault rather than intricate program logic.
